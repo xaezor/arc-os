@@ -27,7 +27,7 @@ export function SystemMonitor() {
         <div>
           <h3 className="text-2xl font-bold mb-4 text-red-400">System Diagnostics</h3>
           <p className="text-gray-300 mb-6">
-            Real-time monitoring of system resources and AI activity. Arcadiious OS continuously optimizes performance
+            Real-time monitoring of system resources and AI activity. Arcadiios OS continuously optimizes performance
             based on usage patterns and current demands.
           </p>
 

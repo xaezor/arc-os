@@ -12,7 +12,7 @@ export function ModulesSection() {
       title: "Kernel Layer",
       icon: <Cpu className="w-6 h-6" />,
       description:
-        "The intelligent core of Arcadiious OS, featuring smart scheduling, memory optimization, process prediction, and anomaly detection.",
+        "The intelligent core of Arcadiios OS, featuring smart scheduling, memory optimization, process prediction, and anomaly detection.",
       features: [
         "AI-powered process scheduling",
         "Dynamic memory allocation",
@@ -101,7 +101,7 @@ export function ModulesSection() {
             Modules & <span className="text-red-500">Services</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Explore the core components that make Arcadiious OS the most advanced intelligent operating system.
+            Explore the core components that make Arcadiios OS the most advanced intelligent operating system.
           </p>
         </motion.div>
 

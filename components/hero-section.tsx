@@ -2,16 +2,29 @@
 
 import { motion } from "framer-motion"
 import { GlowingButton } from "./glowing-button"
+import Image from "next/image"
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section style={{marginTop:'3%'}} className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className="w-[500px] h-[500px] rounded-full border-2 border-red-500/30 animate-[spin_60s_linear_infinite]"></div>
-        <div className="absolute w-[400px] h-[400px] rounded-full border border-red-400/40 animate-[spin_40s_linear_infinite_reverse]"></div>
-        <div className="absolute w-[300px] h-[300px] rounded-full border border-red-300/50 animate-[spin_30s_linear_infinite]"></div>
-      </div>
+        <Image
+          src="/arcrot.png" // Place your PNG in the public folder and update the filename here
+          alt="Spinning"
+          width={500}
+          height={500}
+          className="rounded-full animate-[spin_60s_linear_infinite]"
+        /></div>
 
+        <div className="absolute inset-0 flex items-center justify-center">
+        <Image
+          src="/arcrot2.png" 
+          alt="Spinning"
+          width={700}
+          height={700}
+          className="rounded-full animate-[spin_3s_reverse_infinite]"
+        /></div>
+      
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <motion.h1
@@ -20,7 +33,8 @@ export function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <span className="text-red-500">ARCADIIOUS</span> OS
+            <Image src="/image-removebg-preview.png" alt="Logo" className="h-39 w-39 mr-2 inline-block" width={94} height={94} />
+            <span className="text-red-500">rcadiios</span> OS
           </motion.h1>
 
           <motion.p
@@ -38,8 +52,8 @@ export function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <GlowingButton>Subscribe</GlowingButton>
-            <GlowingButton variant="outline">Learn More</GlowingButton>
+            <a href="#"><GlowingButton>Join</GlowingButton></a>
+            <a href="#overview"><GlowingButton variant="outline">Learn More</GlowingButton></a>
           </motion.div>
         </div>
       </div>

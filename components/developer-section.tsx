@@ -88,45 +88,7 @@ export function DeveloperSection() {
 
               <div className="bg-black/50 rounded-lg p-4 font-mono text-sm text-gray-300 overflow-x-auto">
                 <pre className="language-typescript">
-                  <code>{`// Import Arcadiious OS AI SDK
-import { ArcadiousAI, ContextEngine, NPU } from '@arcadiious/ai-sdk';
-
-// Initialize the AI context
-const ai = new ArcadiousAI({
-  appId: 'your-app-id',
-  permissions: ['context.user', 'npu.inference']
-});
-
-// Access the Neural Processing Unit
-const modelPath = '/path/to/your/model.onnx';
-const npu = await NPU.load(modelPath);
-
-// Run inference with hardware acceleration
-async function processImage(imageData) {
-  // The OS will automatically optimize resource allocation
-  const result = await npu.infer(imageData);
-  
-  // Get user context to enhance the experience
-  const userContext = await ContextEngine.getCurrentContext();
-  
-  // Adapt your app based on context
-  if (userContext.environment === 'work') {
-    // Show professional UI
-    renderWorkInterface(result);
-  } else {
-    // Show casual UI
-    renderCasualInterface(result);
-  }
-  
-  // Let the OS know about this activity for better resource planning
-  ai.reportActivity('image-processing-complete');
-}
-
-// The OS will predict when this function might be called
-// and prepare resources in advance
-export function handleUserRequest() {
-  // ...
-}`}</code>
+                  <code>{`Will be Added`}</code>
                 </pre>
               </div>
 
@@ -137,7 +99,7 @@ export function handleUserRequest() {
                     <h4 className="font-bold text-white">SDK Installation</h4>
                   </div>
                   <div className="bg-black/70 p-2 rounded font-mono text-sm text-gray-300">
-                    <code>npm install @arcadiious/ai-sdk</code>
+                    <code>will be added</code>
                   </div>
                 </div>
 
@@ -148,7 +110,7 @@ export function handleUserRequest() {
                   </div>
                   <div className="text-sm text-gray-300">
                     <p>
-                      Latest SDK: <span className="text-red-400">v2.5.0</span>
+                      Latest SDK: <span className="text-red-400">v0</span>
                     </p>
                     <p>
                       OS Compatibility: <span className="text-red-400">Arcadiious 1.0+</span>

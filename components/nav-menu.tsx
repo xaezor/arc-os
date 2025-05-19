@@ -1,8 +1,10 @@
 "use client"
 
 import { useState } from "react"
+import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X } from "lucide-react"
+import logo from "../public/image-removebg-preview.png"
 
 export function NavMenu() {
   const [isOpen, setIsOpen] = useState(false)
@@ -13,8 +15,7 @@ export function NavMenu() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <a href="#" className="text-xl font-bold text-red-500 font-orbitron">
-              ARCADIIOUS
-            </a>
+<Image src="/image-removebg-preview.png" alt="Logo" className="h-8 w-8 mr-2" width={32} height={32} />            </a>
           </div>
 
           <nav className="hidden md:block">
