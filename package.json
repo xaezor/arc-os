@@ -1,7 +1,6 @@
 {
   "name": "my-v0-project",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -42,7 +41,6 @@
     "class-variance-authority": "^0.7.1",{
   "name": "my-v0-project",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
