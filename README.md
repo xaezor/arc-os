@@ -1,6 +1,6 @@
-![Arcodius OS - Futuristic AI-Powered Operating System](./public/ARC.jpg)
 
 # 🧠 Arcodius OS – An AI-Native Operating System
+![Arcodius OS - Futuristic AI-Powered Operating System](./public/ARC.jpg)
 
 ---
 
