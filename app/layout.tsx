@@ -17,7 +17,7 @@ const rajdhani = Rajdhani({
 })
 
 export const metadata = {
-  title: "Arcadiious OS - Next-Generation Operating System",
+  title: "Arcadiios OS - Next-Generation Operating System",
   description: "A next-generation operating system with integrated Systems AI",
     generator: 'v0.dev'
 }

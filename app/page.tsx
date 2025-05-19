@@ -29,9 +29,9 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="backdrop-blur-md bg-black/30 p-6 rounded-xl border border-red-900/50">
-              <h3 className="text-2xl font-bold mb-4 text-red-400">Vision Statement</h3>
+              <h3 className="text-2xl font-bold mb-4 text-red-400">It is just a concept</h3>
               <p className="text-gray-300 mb-6">
-                Arcadiious OS is a next-generation operating system built from the ground up with
+                Arcadiios OS is a next-generation operating system built from the ground up with
                 <span className="text-red-400 font-semibold"> AI as a core component</span> — not as an application or
                 tool, but as an
                 <span className="text-red-400 font-semibold"> embedded, intelligent system entity</span>.
@@ -67,7 +67,7 @@ export default function Home() {
                         <path d="M12 8h.01" />
                       </svg>
                     </div>
-                    <div className="text-xl font-bold text-white font-orbitron">ARCADIIOUS</div>
+                    <div className="text-xl font-bold text-white font-orbitron">Arcadiios</div>
                     <div className="text-sm text-gray-300">SYSTEMS AI</div>
                   </div>
                 </div>
@@ -104,7 +104,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-red-900/30 py-8 backdrop-blur-md bg-black/30">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-gray-400">© 2025 Arcadiious OS. The future of intelligent computing.</p>
+          <p className="text-gray-400">© 2025 Arcadiios OS. A <a href="https://xaezor.github.com">XAEZOR</a> Product</p>
           <div className="flex justify-center space-x-6 mt-4">
             <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">
               Privacy
